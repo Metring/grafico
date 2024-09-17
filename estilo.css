@@ -1,0 +1,25 @@
+:root{ 
+
+    --cor-de-fundo: #ffdfff;
+    --cor-de-texto: #FFFFFF;
+    --cor-de-senha: #000000;
+    --cor-de-texto: #d183cb;
+    --borda: #d183cb;
+    --tipo-fonte: "Rubik", sans-serif;
+   
+   
+   }
+   
+   *{
+       font-size: 400;
+   
+   }
+   
+   body{
+   
+       background-color: #ffbcf9;
+       text-align: center;
+       color: var(--cor-de-texto);
+       font-family: var(--tipo-fonte);
+   
+   }
