@@ -23,6 +23,15 @@
        font-family: var(--tipo-fonte);
    
    }
+   .cabecalho{
+    background-color: var(--borda);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: var(--cor-de-texto)
+   }
    .roda{
     position: fixed;
     left: 0;
