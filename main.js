@@ -18,7 +18,7 @@ async function visualizarDados(){
 
   console.log(resultado_dados, resultado_regiao)
 
-  const pragrafo = document.createElement('p')
+  const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
   paragrafo.innerHTML ="Aqui era colocado os dados obtidos do site"
   console.log(paragrafo)
