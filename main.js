@@ -22,7 +22,7 @@ async function visualizarDados(){
   paragrafo.classList.add('graficos--container__texto')
   paragrafo.innerHTML ="Aqui era colocado os dados obtidos do site"
   console.log(paragrafo)
-  const container = document.getElementById('graficos--container')
+  const container = document.getElementById('grafico--container')
 
   container.appendChild(paragrafo)
 
