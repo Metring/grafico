@@ -21,6 +21,8 @@ async function visualizarDados(){
   const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
   paragrafo.innerHTML =`${resultado_dados}`
+  let ano = Object.keys(resultado_dados)
+  let valor = Object.values(resultado_dados)
   console.log(paragrafo)
   const container = document.getElementById('grafico--container')
 
