@@ -13,6 +13,8 @@ async function visualizarDados(){
 
    resultado_dados = (dados[0]['resultados'][0]["series"][regiao]['serie'])
   
+   let ano = Object.keys(resultado_dados)
+   let valor = Object.values(resultado_dados)
 
   resultado_regiao = (dados[0]['resultados'][0]["series"][regiao]["localidade"]['nome'])
 
@@ -20,9 +22,7 @@ async function visualizarDados(){
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
-  paragrafo.innerHTML =`${resultado_dados}`
-  let ano = Object.keys(resultado_dados)
-  let valor = Object.values(resultado_dados)
+  paragrafo.innerHTML =`No ${ano} foi obtido um vlaor de ${valor}`
   console.log(paragrafo)
   const container = document.getElementById('grafico--container')
 
