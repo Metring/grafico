@@ -22,7 +22,7 @@ async function visualizarDados(){
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
-  paragrafo.innerHTML =`No ${ano} foi obtido um vlaor de ${valor}`
+  paragrafo.innerHTML =`No ${ano} foi obtido um valor de ${valor}`
   console.log(paragrafo)
   const container = document.getElementById('grafico--container')
 
