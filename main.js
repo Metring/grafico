@@ -20,7 +20,7 @@ async function visualizarDados(){
 
   const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos--container__texto')
-  paragrafo.innerHTML ="Aqui era colocado os dados obtidos do site"
+  paragrafo.innerHTML =`${resultado_dados}`
   console.log(paragrafo)
   const container = document.getElementById('grafico--container')
 
